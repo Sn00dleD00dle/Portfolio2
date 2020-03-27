@@ -9,6 +9,7 @@ public class Portfolio2JDBC {
         Connection conn = null;
         try{
             System.out.println("Connecting");
+            // Please replace the url with the location of the StudentDB from the GIT repository.
             String url = "jdbc:sqlite:C:/Users/Charlie/IdeaProjects/Portfolio2Database/StudentDB";
             conn = getConnection(url); // Connects to the linked database
             System.out.println("Connection successful");
